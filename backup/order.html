@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocceries - order</title>
+    
+    <link href="CSS/styles.css" rel = "stylesheet">
+</head>
+<body>
+    <div class="page">
+        <header class="header"><h2>Tom and Jerry's Artistic Deli</h2></header>
+
+        <main class="content">
+            
+            <section class="bottomSection">
+                <div class="summary">
+                    <h3>Order Details:</h3>
+                    <div class="inRow">
+                        <div class="inColumn">
+                            <p><bold>Items in shopping list: </bold><span id="totalInList">50</span> pcs</p>
+                            <p><bold>Total price: </bold><span id="totalPrice">100</span> $</p>
+                        </div>
+                        <div class="buttons">
+                            <button onclick="order()">Order</button>
+                            <button onclick="cancel()">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="footer"><p>Brightcode inc &copy 2023</p></footer>
+    </div>
+
+    <script src="js/order.js"></script>
+</body>
+</html>
